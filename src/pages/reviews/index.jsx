@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import RatingsAndReviews from "../../mock"; // 模拟请求
 
-require("./index.less");
+import "./index.less"
 
 export default function reviews() {
   console.log(RatingsAndReviews);
